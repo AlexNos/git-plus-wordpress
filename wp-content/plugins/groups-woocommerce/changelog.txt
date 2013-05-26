@@ -1,0 +1,20 @@
+*** Groups WooCommerce ***
+
+2012.12.13 - version 1.3.2
+* 1.2.1 - 1.3.1 sync
+
+2012.12.11 - version 1.3.1
+* WP 3.5 compatibility
+
+2012.12.05 - version 1.3.0
+* added feature: group memberships based on normal products can have a limited duration
+
+2012.10.07 - version 1.2.1
+* New updater
+
+2012.10.07 - version 1.2.0
+* added feature: choose when users are added to groups (processing or completed)
+* added feature: remove from group when product is purchased
+
+2012.06.21 - version 1.0
+ * First release

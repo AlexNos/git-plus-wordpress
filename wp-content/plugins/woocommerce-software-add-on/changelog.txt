@@ -1,0 +1,13 @@
+*** Software Addon Changelog ***
+
+2012.09.13 - version 1.0.3
+* Fixed issue with unlimited available activations
+
+2012.08.03 - version 1.0.2
+ * Small UI tweak for WooCommerce 1.6.2
+
+2012.07.25 - version 1.0.1
+ * Support write panel in WC 1.6.2
+
+2012.05.16 - version 1.0
+ * First Release

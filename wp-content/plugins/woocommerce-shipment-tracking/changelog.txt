@@ -1,0 +1,21 @@
+*** Shipment Tracking Changelog ***
+
+2012.12.04 - version 1.0.5
+ * New updater
+
+2012.08.15 - version 1.0.4
+* PostNL support
+
+2012.06.25 - version 1.0.3
+* Changed text for 'custom' links
+* Changed save priority
+
+2012.06.25 - version 1.0.2
+* Added Correios
+* Added Posten AB
+
+2012.06.06 - version 1.0.1
+ * Added DTDC shipping
+
+2012.05.17 - version 1.0
+ * First Release

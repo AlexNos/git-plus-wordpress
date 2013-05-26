@@ -1,0 +1,8 @@
+*** WooTransmitter Changelog ***
+
+2012.09.19 - version 1.0.1
+ * /classes/class-wootransmitter.php - Make sure all textdomains are set to 'wootransmitter'.
+ * /assets/css/style.css - Make the "read" count number darker, and easier to read. Move the full message preview further to the right to avoid gap between message list and message preview.
+
+2012.07.12 - version 1.0.0
+ * First release!

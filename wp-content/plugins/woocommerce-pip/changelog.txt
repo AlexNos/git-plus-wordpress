@@ -1,0 +1,62 @@
+*** WooCommerce Print Invoice/Packaging List ***
+
+2012.10.28 - version 2.1
+* Media upload implementation uses WP 3.5 media handling.
+* Fixed plugin script loading only to needed admin pages.
+* Tested with WooCommerce 1.6.6 and WooCommerce 2.0.
+
+2012.12.04 - version 2.0.1
+* New updater
+
+2012.10.20 - version 2.0
+ * Major rewrite of the template system to support bulk printing.
+ 
+2012.09.16 - version 1.3.6
+ * Fix for issue with email background color with Gmail.
+
+2012.08.30 - version 1.3.5
+ * Fixed order item meta
+
+2012.07.11 - version 1.3.4
+ * Fixed unescaping fields
+
+2012.06.25 - version 1.3.3
+ * Added support for shipment tracking extension
+ * Change payment_method to payment_method_title
+
+2012.06.07 - version 1.3.2
+ * Fix template directory check
+
+2012.05.26 - version 1.3.1
+ * Fix invoice number display
+ 
+2012.05.26 - version 1.3
+ * This version only works with WooCommerce 1.5.3 or newer
+ * Support for WC_Order::get_order_number()
+
+2012.04.22 - version 1.2
+ * Added customer order notes to the print
+ * Implemented invoice emailing functionality
+ * Added support for VAT number
+
+2012.03.14 - version 1.1.2
+ * Added jQuery to script dependencies
+ * Changed view permission to manage_woocommerce_orders
+
+2012.03.14 - version 1.1.1
+ * Changed permission check to manage_woocommerce
+
+2012.03.14 - version 1.1
+ * Added contiguous invoice numbering
+ * Added invoice numbering reset functionality
+ * Added prefix and suffix for invoice numbering
+ * Added custom logo functionality
+ * Added support for custom template
+ * Fixed textdomain issues
+ * Improved the built-in template
+
+2012.03.08 - version 1.0.1
+ * Fixed issue where same order was showing up in print
+
+2012.02.28 - version 1.0
+ * First release

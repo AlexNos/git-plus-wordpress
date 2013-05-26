@@ -1,0 +1,155 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/how-to-build-a-simple-responsive-wordpress-site-with-twitter-bootstrap
+Description: A simple responsive theme built with Bootstrap
+Author: Jeff Chown (based on Zac Gordon's article)
+Author URI: http://creativelycloudy.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This is an example theme to go along with the Treehouse blog post on <a href="http://teamtreehouse.com/how-to-build-a-responsive-wordpress-site-with-twitter-bootstrap">How to Build a Simple Responsive WordPress Site Using Twitter Bootstrap</a>.
+*/
+
+/* 	
+
+// For some reason, placing the BS & FA css code here breaks the responsive css
+// so moved code to header.php
+
+@import url('bootstrap/css/bootstrap.css');
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+@import url('bootstrap/css/bootstrap-responsive.css');
+@import url('bootstrap/css/font-awesome.min.css');
+
+*/
+
+body {
+	background-color: #e0e0e0;
+	font-family: "Droid Sans", arial, sans-serif;
+}
+
+img {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 5px;
+}
+
+.btn { font-family: "Droid Serif", "Times New Roman", serif !important; }
+
+.with_frm_style p.description, 
+.with_frm_style div.description, 
+.with_frm_style div.frm_description, 
+.with_frm_style,
+.with_frm_style label.frm_primary_label,
+label,
+.frm_error { font-family: "Droid Sans", arial, sans-serif !important; }
+
+.container.page { 
+	box-shadow: 0px 3px 6px #444;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+}
+
+	header { 
+		background-image: url('images/sky.jpg');
+		/*background: #3E6197;*/
+		/*background: #f5f5f5;*/
+		height: 150px;
+	}
+		.jumbotron {
+/*
+			height: 290px;
+			background: rgba(29, 80, 157, 0.87);
+*/
+			height: auto;
+			background: inherit;
+			/*border-bottom: 1px solid blue;*/
+			padding: 30px 0px 10px 20px;
+			text-shadow: 2px 2px 2px #333;
+			box-shadow: 0px 3px 6px #444;
+		}
+
+			.jumbotron .hero-content {
+				text-align: center;
+				/*margin-top: 60px;*/
+			}
+
+			.jumbotron .span3 {
+				/*background-image: url('images/pegasus.png');*/
+			}
+
+			.jumbotron h1 {
+				font-family: "Volkhov","Times New Roman", Times, serif;
+				font-weight: bold;
+				font-style: italic;
+			    font-size: 60px;
+			    letter-spacing: -2px;
+			    line-height: 1ex;
+			}
+			.jumbotron, .jumbotron h1 {
+			    color: #fff;
+			}
+				.jumbotron h1 a, 
+				.jumbotron h1 a:hover,
+				.jumbotron h1 a:visited { color: #fff; text-decoration: none; }
+
+			.jumbotron .btn-large {
+				font-family: "Droid Serif","Times New Roman", Times, serif;
+				font-weight: 400;
+				font-size: 18px;
+				padding: 13px 23px 13px 22px;
+				margin-right: 10px;
+				text-align: left;
+			}
+
+			.jumbotron p {
+			    margin-top: 0px;
+			    margin-bottom: 30px;
+			    font-size: 30px;
+			    line-height: 1.3;
+			}	
+
+			.jumbotron .nav { margin-top: 20px; }
+				.jumbotron ul.nav { margin: 15px 20px 10px 25px; }
+					.jumbotron .nav li { padding-right: 4px; font-size: 1em; }
+						.jumbotron .nav a { color: #fff; }
+						.jumbotron .nav a:hover { background-color: #4978BC; }
+						.nav-pills > .active > a, 
+						.nav-pills > .active > a:hover { background-color: #4978BC; }
+
+	#hf-page-title h1 {	padding: 0 20px; }	
+
+	.container-fluid.content { 
+		background-color: #fff; 
+		padding: 30px 0;
+/*
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		box-shadow: 3px 3px 6px #ccc;
+*/
+	}
+
+	.picture-bar {
+		background-color: #fff;
+		min-height: 150px;
+		width: 100%;
+		padding: 0;
+		margin: 0 auto;
+		background-image: url('images/picture-bar-940.jpg');
+	}
+
+		fieldset h2, .frm_pos_top {
+			line-height: 2ex;
+			background: #fff;
+			padding: 0;
+			margin-bottom: 1ex;
+			margin-top: 3ex;
+			border-bottom: 2px solid #ccc;
+		}
+
+	footer { margin: 0; }

@@ -1,0 +1,34 @@
+.wc-debug-bar-box h3,
+.wc-debug-bar-box h4 {
+	font-family: Georgia, Times, Serif;
+	padding: 0 0 5px 0;
+}
+
+.wc-debug-bar-box h3 {
+	font-size: 22px;
+}
+
+.wc-debug-bar-box h4 {
+	font-size: 18px;
+}
+
+a#wc-debug-bar-show-products,
+a#wc-debug-bar-hide-products,
+a#wc-debug-bar-show-coupons,
+a#wc-debug-bar-hide-coupons {
+	display: none;
+}
+
+.wc-debug-bar-table {
+	margin: 0 0 10px 0;
+}
+
+.wc-debug-bar-table th {
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+.wc-debug-bar-table td {
+	border: #333 1px solid;
+	padding: 5px;
+}

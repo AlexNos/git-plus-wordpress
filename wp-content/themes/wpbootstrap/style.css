@@ -1,0 +1,49 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/how-to-build-a-simple-responsive-wordpress-site-with-twitter-bootstrap
+Description: A simple responsive theme built with Bootstrap
+Author: Jeff Chown (based on Zac Gordon's article)
+Author URI: http://creativelycloudy.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This is an example theme to go along with the Treehouse blog post on <a href="http://teamtreehouse.com/how-to-build-a-responsive-wordpress-site-with-twitter-bootstrap">How to Build a Simple Responsive WordPress Site Using Twitter Bootstrap</a>.
+*/
+
+/* 	
+
+// For some reason, placing the BS & FA css code here breaks the responsive css
+// so moved code to header.php
+
+@import url('bootstrap/css/bootstrap.css');
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+@import url('bootstrap/css/bootstrap-responsive.css');
+@import url('bootstrap/css/font-awesome.min.css');
+
+*/
+
+.icons ul { list-style-type: none; text-indent: -.75em} 
+.icons ul li [class^="icon-"],
+.icons ul li [class*=" icon-"] { width: .75em }
+
+.large { font-size: 1.4em; }
+
+.icons.large ul { text-indent: -.35em} 
+.icons.large ul li [class^="icon-"],
+.icons.large ul li [class*=" icon-"] { width: 1.25em; margin-bottom: .5ex; }
+
+.icon-info { color: #3a87ad; }
+.icon-success { color: #468847; }
+.icon-warning { color: #c09853; }
+.icon-error { color: #b94a48; }
+.icon-shadow { text-shadow: 2px 2px 5px #a0a0a0; }
+
+header { background-color: #ececec; }
+footer { background-color: #aaa; min-height: 20ex; }
+
